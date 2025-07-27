@@ -10,7 +10,7 @@ int main() {
   vector<int> L1, L2;
   ifstream file("input.txt");
   int output = 0;
-  stringstream stream;
+  istringstream stream;
 
   while (getline(file, line)) {
     stream.str(line);
